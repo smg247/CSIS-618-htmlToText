@@ -8,22 +8,10 @@
     <artifactId>html-to-text</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/de.jflex/jflex -->
-        <dependency>
-            <groupId>de.jflex</groupId>
-            <artifactId>jflex</artifactId>
-            <version>1.7.0</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/de.jflex/cup-parent -->
-        <dependency>
-            <groupId>de.jflex</groupId>
-            <artifactId>cup-parent</artifactId>
-            <version>11b</version>
-            <type>pom</type>
-        </dependency>
-    </dependencies>
+    <packaging>jar</packaging>
+    <build>
+        <finalName>myhtml2txt</finalName>
+    </build>
 
 
 </project>
