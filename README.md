@@ -8,7 +8,7 @@ run ```./myhtml2txt.sh <inputFile.html> <outputFile.txt>```
 
 # About
 
-This is an HTML to TXT translator written in Java. It utilize JFlex to create a simple grammar to strip out HTML tags and convert a few key sequences into their respective text forms
+This is an HTML to TXT translator written in Java. It utilizes JFlex to create a simple grammar to strip out HTML tags and convert a few key sequences into their respective text forms
 
  -  \&amp; = &
  - \&lt; = <
